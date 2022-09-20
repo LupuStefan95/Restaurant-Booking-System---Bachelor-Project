@@ -1,0 +1,25 @@
+@import './Colors.scss';
+@import './Font.scss';
+
+.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: $light-color;
+	text-decoration: none;
+	padding: 1rem 1rem;
+
+	p{
+		font-size: $font-size-medium;
+		cursor: pointer;
+	}
+}
+.link:hover {
+	border-bottom: 2px solid $light-color;
+	margin-bottom: -2px !important;
+	border-color: $light-accent;
+
+	p {
+		color: $light-accent;
+	}
+}

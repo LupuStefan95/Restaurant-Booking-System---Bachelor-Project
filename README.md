@@ -1,2 +1,2 @@
-# Restaurant-Booking-System---Bachelor-Project
-Restaurant booking system for Customers / Managers
+# BPR1
+ Bachelor Project

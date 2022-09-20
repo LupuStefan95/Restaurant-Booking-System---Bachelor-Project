@@ -1,0 +1,11 @@
+@import './Reusable/Colors.scss';
+
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 1rem;
+	background-color: $light-color;
+	min-height: 82.5vh;
+}
